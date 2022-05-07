@@ -1,0 +1,1 @@
+grep -rl 'app_name' ./ | xargs sed -i 's/app_name/new_app_name/g'
